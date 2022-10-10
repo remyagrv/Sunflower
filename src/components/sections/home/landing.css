@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+}
+.landingBody {
+  background: radial-gradient(
+    50.64% 121.18% at 81.54% 36.97%,
+    #04027c 0%,
+    #040262 10%,
+    #040262 26.25%,
+    #12024f 52.81%,
+    #08013c 75.52%,
+    #01012b 100%
+  );
+  width: 100vw;
+  overflow: hidden;
+  color: white;
+}
+.bgGif{
+  position: relative;
+}
+.bgGif::before{
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  content: "";
+  background-image: url("https://res.cloudinary.com/trackgenesis/image/upload/v1654512913/TG-Website/images/original-1--unscreen_pttufq.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: 1;
+}
+.bgRotate {
+  animation: animName 15s linear infinite;
+}
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.robot{
+  grid-column: span 3;
+}
+
+
