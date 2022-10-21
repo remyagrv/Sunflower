@@ -18,26 +18,16 @@
     <img class="logo" src="./logo.png" />
     <div class="container">
         <div class="model">
-            <model-viewer src="nwss.gltf"  magic-leap
-            ar
-            ar-modes="scene-viewer webxr quick-look"
-            ar-scale="fixed"
-            touch-action="pan-y"
-            camera-controls
-         
-            shadow-intensity="1"
-       
-            camera-target="-0.0007967m 0.19m 0.01792m"
-            max-camera-orbit="auto 180deg auto" 
-            min-field-of-view="30deg"
-            min-camera-orbit="auto 0deg 0.6257m"
-            alt="A 3D model of robot">
+            <model-viewer src="nwss.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-target="45m 50m 21.03m" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 180deg auto">
                 <div class="progress-bar hide" slot="progress-bar">
                     <div class="update-bar"></div>
                 </div>
                 <button slot="ar-button" id="ar-button">
-                    View in your spsace
+                    View in your spacef
                 </button>
+                
+            </model-viewer>
+            
 
             </model-viewer>
 
