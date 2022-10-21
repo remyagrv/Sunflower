@@ -1,0 +1,64 @@
+body{
+    background-color: #78c6c0;
+  justify-content: center;
+    /* background-image: url(./backGround.png); */
+}
+.container{
+    background-color: #F7F7F7;
+    width: 90%;
+    /* margin: 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+   margin-top: 50px;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 50px;
+    
+}
+
+.ar{
+    width: 22px;
+    margin-right: 10px;
+ 
+
+    /* padding: 5px; */
+}
+/* <button class="button-33" role="button">Button 33</button> */
+
+/* CSS */
+/* .ar-button {
+  background-color:  rgba(120, 198, 192, 1);
+  width:50%;
+  height: 40px;
+  margin-bottom: 15%;
+    margin-left:25%;
+    margin-right:25%;
+  border-radius: 100px;
+  box-shadow: rgba(120, 198, 192, 0.2) 0 -25px 18px -14px inset,
+  rgba(120, 198, 192, 0.15) 0 1px 2px, rgba(120, 198, 192, 0.15) 0 2px 4px, rgba(120, 198, 192, 0.15) 0 4px 8px, rgba(120, 198, 192, 0.15) 0 8px 16px, rgba(120, 198, 192, 0.15) 0 16px 32px;
+  color: #ffffff;
+  font-weight: bolder;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roboto,sans-serif;
+  padding:8px;
+  text-align: center;
+  text-decoration: none;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+} */
+
+/* .ar-button:hover {
+  box-shadow: rgba(84, 220, 184, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) ;
+} */
